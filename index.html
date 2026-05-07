@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bombers 36 — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+      margin-bottom: 4px;
+    }
+
+    .logo span {
+      color: #e63e1e;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+
+    .updated {
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #e63e1e;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 36px 0 12px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #ccc;
+      margin-bottom: 12px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+
+    li {
+      font-size: 15px;
+      color: #ccc;
+      margin-bottom: 6px;
+    }
+
+    .highlight {
+      background: #1a1a1a;
+      border-left: 3px solid #e63e1e;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+    }
+
+    .highlight p {
+      margin: 0;
+      color: #f0f0f0;
+      font-weight: 500;
+    }
+
+    .lang-toggle {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+
+    .lang-btn {
+      padding: 6px 16px;
+      border-radius: 20px;
+      border: 1px solid #333;
+      background: transparent;
+      color: #888;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .lang-btn.active {
+      background: #e63e1e;
+      border-color: #e63e1e;
+      color: #fff;
+    }
+
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+
+    .contact {
+      margin-top: 48px;
+      padding: 20px;
+      background: #1a1a1a;
+      border-radius: 12px;
+    }
+
+    .contact p { margin: 0; font-size: 14px; }
+
+    a { color: #e63e1e; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    hr {
+      border: none;
+      border-top: 1px solid #222;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo">BOMBERS <span>36</span></div>
+  <div class="subtitle">Old Subbuteo Club</div>
+
+  <div class="lang-toggle">
+    <button class="lang-btn active" onclick="setLang('it')">Italiano</button>
+    <button class="lang-btn" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ── ITALIANO ─────────────────────────────────────────────────────────── -->
+  <div id="it" class="lang-section active">
+
+    <h1>Informativa sulla Privacy</h1>
+    <div class="updated">Ultimo aggiornamento: Aprile 2026</div>
+
+    <div class="highlight">
+      <p>Bombers 36 non raccoglie, non trasmette e non condivide alcun dato personale. Tutti i tuoi dati rimangono sul tuo dispositivo.</p>
+    </div>
+
+    <h2>1. Dati raccolti</h2>
+    <p>Bombers 36 <strong>non raccoglie alcun dato personale</strong>. L'app non richiede registrazione, non crea account e non comunica con server esterni per scopi di profilazione o analisi.</p>
+
+    <h2>2. Archiviazione locale</h2>
+    <p>Tutti i dati generati dall'uso dell'app (tornei, squadre, risultati, impostazioni) sono salvati <strong>esclusivamente sul dispositivo locale</strong> dell'utente tramite database SQLite e SharedPreferences.</p>
+    <p>Questi dati:</p>
+    <ul>
+      <li>Non vengono mai trasmessi a server di terze parti</li>
+      <li>Non vengono condivisi con altri utenti o sistemi</li>
+      <li>Vengono eliminati automaticamente alla disinstallazione dell'app</li>
+    </ul>
+
+    <h2>3. Connessione Internet</h2>
+    <p>L'app utilizza la connessione Internet <strong>esclusivamente</strong> per recuperare i loghi delle squadre di calcio da fonti pubbliche (TheSportsDB). Questa operazione:</p>
+    <ul>
+      <li>Non trasmette dati identificativi dell'utente</li>
+      <li>Non richiede autenticazione</li>
+      <li>È facoltativa: l'app funziona completamente offline</li>
+    </ul>
+
+    <h2>4. Permessi dell'app</h2>
+    <p>Bombers 36 richiede i seguenti permessi Android:</p>
+    <ul>
+      <li><strong>INTERNET</strong> — per il recupero dei loghi squadre</li>
+      <li><strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</strong> — per selezionare una foto dalla galleria come copertina del torneo (solo su richiesta esplicita dell'utente)</li>
+      <li><strong>CAMERA</strong> — per scattare una foto come copertina del torneo (solo su richiesta esplicita dell'utente)</li>
+      <li><strong>VIBRATE</strong> — per il feedback aptico durante il timer di partita</li>
+    </ul>
+    <p>Nessun permesso viene usato per raccogliere o trasmettere dati personali.</p>
+
+    <h2>5. Acquisti in-app</h2>
+    <p>L'app offre un acquisto in-app opzionale ("Bombers 36 Pro") gestito tramite <strong>Google Play Billing</strong>. Il trattamento dei dati di pagamento è interamente gestito da Google secondo la propria <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>. Bombers 36 non riceve né archivia dati di pagamento.</p>
+
+    <h2>6. Servizi di terze parti</h2>
+    <p>L'app utilizza <strong>Firebase</strong> (Google) per la distribuzione delle versioni di test (Firebase App Distribution). Questa funzione è attiva solo nelle versioni di test e non è presente nella versione pubblica del Play Store.</p>
+
+    <h2>7. Minori</h2>
+    <p>Bombers 36 non è destinata a utenti di età inferiore ai 13 anni e non raccoglie consapevolmente dati da minori.</p>
+
+    <h2>8. Modifiche alla privacy policy</h2>
+    <p>Eventuali aggiornamenti a questa informativa saranno pubblicati su questa pagina con la data di aggiornamento. L'uso continuato dell'app dopo le modifiche costituisce accettazione della nuova informativa.</p>
+
+    <div class="contact">
+      <p><strong>Contatti</strong><br>
+      Per qualsiasi domanda relativa alla privacy:<br>
+      <a href="mailto:giordano.iacozzilli@gmail.com">giordano.iacozzilli@gmail.com</a></p>
+    </div>
+
+  </div>
+
+  <!-- ── ENGLISH ───────────────────────────────────────────────────────────── -->
+  <div id="en" class="lang-section">
+
+    <h1>Privacy Policy</h1>
+    <div class="updated">Last updated: April 2026</div>
+
+    <div class="highlight">
+      <p>Bombers 36 does not collect, transmit, or share any personal data. All your data stays on your device.</p>
+    </div>
+
+    <h2>1. Data collected</h2>
+    <p>Bombers 36 <strong>does not collect any personal data</strong>. The app does not require registration, does not create accounts, and does not communicate with external servers for profiling or analytics purposes.</p>
+
+    <h2>2. Local storage</h2>
+    <p>All data generated by using the app (tournaments, teams, scores, settings) is stored <strong>exclusively on the user's local device</strong> using SQLite and SharedPreferences.</p>
+    <p>This data:</p>
+    <ul>
+      <li>Is never transmitted to third-party servers</li>
+      <li>Is never shared with other users or systems</li>
+      <li>Is automatically deleted when the app is uninstalled</li>
+    </ul>
+
+    <h2>3. Internet connection</h2>
+    <p>The app uses an Internet connection <strong>exclusively</strong> to fetch football team logos from public sources (TheSportsDB). This operation:</p>
+    <ul>
+      <li>Does not transmit any user-identifying data</li>
+      <li>Does not require authentication</li>
+      <li>Is optional: the app works fully offline</li>
+    </ul>
+
+    <h2>4. App permissions</h2>
+    <p>Bombers 36 requests the following Android permissions:</p>
+    <ul>
+      <li><strong>INTERNET</strong> — to fetch team logos</li>
+      <li><strong>READ_MEDIA_IMAGES / READ_EXTERNAL_STORAGE</strong> — to select a photo from the gallery as a tournament cover (only on explicit user request)</li>
+      <li><strong>CAMERA</strong> — to take a photo as a tournament cover (only on explicit user request)</li>
+      <li><strong>VIBRATE</strong> — for haptic feedback during the match timer</li>
+    </ul>
+    <p>No permission is used to collect or transmit personal data.</p>
+
+    <h2>5. In-app purchases</h2>
+    <p>The app offers an optional in-app purchase ("Bombers 36 Pro") managed through <strong>Google Play Billing</strong>. Payment data processing is handled entirely by Google according to their <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>. Bombers 36 does not receive or store payment data.</p>
+
+    <h2>6. Third-party services</h2>
+    <p>The app uses <strong>Firebase</strong> (Google) for test version distribution (Firebase App Distribution). This feature is only active in test builds and is not present in the public Play Store version.</p>
+
+    <h2>7. Children</h2>
+    <p>Bombers 36 is not intended for users under the age of 13 and does not knowingly collect data from minors.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>Any updates to this policy will be published on this page with the updated date. Continued use of the app after changes constitutes acceptance of the new policy.</p>
+
+    <div class="contact">
+      <p><strong>Contact</strong><br>
+      For any privacy-related questions:<br>
+      <a href="mailto:giordano.iacozzilli@gmail.com">giordano.iacozzilli@gmail.com</a></p>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+</body>
+</html>
